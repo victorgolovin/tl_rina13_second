@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tl Rina13</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="files/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="files/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="files/favicon-16x16.png">
+    <link rel="manifest" href="files/site.webmanifest">
+
     <link rel="stylesheet" href="styles/main.css" />
 
   </head>
@@ -21,11 +26,19 @@
             /></a>
           </div>
           <ul class="nav-list">
-            <li class="nav-link">обо мне</li>
-            <li class="nav-link">мои работы</li>
-            <li class="nav-link">услуги</li>
-            <li class="nav-link">контакты</li>
-          </ul>
+            <li>
+                <a class="nav-link" href="#about-me">обо мне</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#my-works">мои работы</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#my-services">услуги</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#contact">контакты</a>
+            </li>
+        </ul>
         </div>
       </div>
     </header>
@@ -34,13 +47,28 @@
 
     <main>
 
+        <!-- top-info -->
+
+        <section class="top-info">
+            <div class="container">
+                <div class="top-info-inner">
+                    <h1 class="top-info-title">
+                        Частный мастер маникюра и <br> педикюра на дому
+                    </h1>
+                    <div class="top-info-img-wrapper">
+                        <img class="top-info-img" src="images/degree-img.jpg" alt="" >
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- about-me -->
 
-        <section class="about-me" >
+        <section class="about-me">
             <div class="container">
                 <div class="about-me-inner">
                     <div class="about-me-wrapper">
-                        <h2 class="about-me-title">Обо мне</h2>
+                        <h2 class="about-me-title" id="about-me" >Обо мне</h2>
                         <div class="about-me-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae esse repellat cum ipsam rerum, quaerat laborum exercitationem voluptatibus ad nobis id veritatis quasi adipisci animi atque quia provident debitis et? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate perspiciatis quaerat sequi ab cumque voluptatem repudiandae nam, explicabo illum omnis hic est architecto ipsa non, commodi accusantium libero quam possimus.
                         Aperiam quis dolor excepturi officia accusamus illo, rerum temporibus odio asperiores et, libero consequuntur molestias, corrupti quaerat. Doloribus quod corrupti et voluptatem saepe ea excepturi totam laudantium asperiores, rem eum!
                         Dolores dolore ducimus ut explicabo omnis, ad delectus necessitatibus obcaecati provident eveniet inventore, optio ex exercitationem similique ratione et cupiditate! Cum, repellat repellendus quas at voluptatem officia saepe optio maiores.</div>
@@ -57,7 +85,7 @@
         <section class="my-works" >
             <div class="container">
                 <div class="my-works-inner">
-                    <h2 class="my-works-title">Мои работы</h2>
+                    <h2 class="my-works-title" id="my-works" >Мои работы</h2>
                     <div class="my-works-list">
                         <img class="my-works-list-img" src="images/1-n.jpg" alt="images/1-n.jpg">
                         <img class="my-works-list-img" src="images/5-n.jpg" alt="images/5-n.jpg">
@@ -107,7 +135,7 @@
         <section class="services">
             <div class="container">
                 <div class="services-inner">
-                    <h2 class="services-title">Мои услуги</h2>
+                    <h2 class="services-title" id="my-services" >Мои услуги</h2>
                     <div class="services-list">
                         <div class="services-text">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla nostrum illo excepturi. Natus voluptatibus delectus deserunt ab unde, hic quibusdam tenetur rem, a earum eaque molestias, perferendis sint nobis ipsum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt esse ipsam quia qui non, cumque debitis ad consequuntur a rem, nemo quisquam sequi laudantium impedit error, earum voluptas possimus quibusdam.
@@ -134,9 +162,7 @@
         <section class="contact">
             <div class="container">
                 <div class="contact-inner">
-                    <h2 class="contact-title">
-                        контакты
-                    </h2>
+                    <h2 class="contact-title" id="contact" >контакты</h2>
                     <div class="contact-list">
                         <div class="contact-link">
                             <div class="contact-link-tel">
@@ -165,10 +191,18 @@
         <div class="container">
             <div class="footer-inner">
                 <ul class="footer-list">
-                    <li class="footer-link">обо мне</li>
-                    <li class="footer-link">мои работы</li>
-                    <li class="footer-link">услуги</li>
-                    <li class="footer-link">контакты</li>
+                    <li>
+                        <a class="footer-link" href="#about-me">обо мне</a>
+                    </li>
+                    <li>
+                        <a class="footer-link" href="#my-works">мои работы</a>
+                    </li>
+                    <li>
+                        <a class="footer-link" href="#my-services">услуги</a>
+                    </li>
+                    <li>
+                        <a class="footer-link" href="#contact">контакты</a>
+                    </li>
                 </ul>
                 <p class="footer-text">Маникюр и Педикюр от Иришки - 2023</p>
             </div>

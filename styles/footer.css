@@ -15,6 +15,7 @@
 
 .footer-link {
     text-transform: uppercase;
+    text-decoration: none;
     font-size: 18px;
     line-height: 25px;
     color: #a25fa8;

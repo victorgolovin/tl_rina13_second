@@ -23,11 +23,12 @@ header {
     height: 30px;
     display: flex;
     justify-content: space-between;
-    gap: 30px;
+    gap: 70px;
 }
 
 .nav-link {
     text-transform: uppercase;
+    text-decoration: none;
     font-size: 18px;
     line-height: 25px;
     color: #a25fa8;
