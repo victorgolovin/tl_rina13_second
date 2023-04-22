@@ -1,0 +1,68 @@
+.contact {
+  background-color: pink;
+  padding-bottom: 150px;
+}
+
+.contact-title {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 45px;
+  line-height: 62px;
+  font-weight: bold;
+  color: #a25fa8;
+  padding-top: 30px;
+  margin-bottom: 100px;
+}
+
+.contact-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-link {
+    position: relative;
+}
+
+.contact-link-tel::before {
+    background-image: url(..//files/mobile-icon.png);
+}
+
+.contact-link-telegram::before {
+    background-image: url(..//files/telegram.png);
+}
+
+.contact-link-inst::before {
+    background-image: url(..//files/inst-icon.png);
+}
+
+.contact-link-tel::before,
+.contact-link-telegram::before,
+.contact-link-inst::before {
+    content: "";
+    position: absolute;
+    bottom: 85px;
+    display: block;
+    width: 35px;
+    height: 35px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+
+
+
+.link-tel,
+.link-telegram,
+.link-inst {
+    font-size: 60px;
+    line-height: 60px;
+    text-decoration: none;
+    color: #121212;
+}
+
+.link-tel:hover,
+.link-telegram:hover,
+.link-inst:hover {
+    opacity: 0.5;
+    color: #a25fa8;
+}
