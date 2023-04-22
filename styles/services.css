@@ -1,0 +1,25 @@
+.services {
+    background-color: black;
+    padding-bottom: 150px;
+}
+
+.services-title {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 45px;
+    line-height: 62px;
+    font-weight: bold;
+    color: #a25fa8;
+    margin-bottom: 50px;
+}
+
+.services-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.services-text {
+    font-size: 18px;
+    line-height: 25px;
+}
