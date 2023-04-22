@@ -1,0 +1,29 @@
+.about-me {
+    background-color: black;
+    padding-bottom: 130px;
+}
+
+.about-me-inner {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.about-me-title {
+    text-transform: uppercase;
+    font-size: 45px;
+    line-height: 62px;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+
+.about-me-text {
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.about-me-photo-img {
+    width: 500px;
+    height: 800px;
+    border-radius: 100px;
+}
