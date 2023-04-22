@@ -1,0 +1,20 @@
+.top-info {
+    background-color: black;
+    padding-bottom: 150px;
+}
+
+.top-info-title {
+    font-size: 60px;
+    line-height: 62px;
+    font-weight: bold;
+    color: #a25fa8;
+    margin-bottom: 50px;
+}
+
+.top-info-img {
+    width: 100%;
+    height: 640px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
