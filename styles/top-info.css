@@ -1,3 +1,5 @@
+/* top-info */
+
 .top-info {
     background-color: black;
     padding-bottom: 150px;
@@ -53,6 +55,5 @@
     .top-info-img {
         height: 300px;
     }
-
 }
 
