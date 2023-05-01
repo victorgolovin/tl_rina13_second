@@ -34,3 +34,44 @@
     opacity: 0.5;
     padding-bottom: 30px;
 }
+
+@media (max-width: 1199px) {
+
+    .footer-inner {
+        padding-top: 40px;
+    }
+
+    .footer-list {
+        padding-bottom: 60px;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    .footer-inner {
+        padding-top: 30px;
+    }
+
+    .footer-list {
+        gap: 30px;
+        padding-bottom: 40px;
+    }
+
+    .footer-link {
+        font-size: 12px;
+        line-height: 17px;
+    }
+    
+    .footer-text {
+        font-size: 13px;
+        line-height: 18px; 
+        padding-bottom: 25px;
+    }
+}
+
+@media (max-width: 350px) {
+    .footer-list {
+        gap: 15px;
+    }
+}

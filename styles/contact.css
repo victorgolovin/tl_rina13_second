@@ -92,13 +92,10 @@
 
 @media (max-width: 767px) {
 
-    /* .contact {
-        padding-bottom: 60px;
-    } */
-
     .contact-title {
         font-size: 30px;
         line-height: 38px;
+        margin-bottom: 70px;
     }
 
     .contact-list {
